@@ -19,9 +19,9 @@ CW = int(CH * 16 / 9)  # 856
 W, H = CW, CH
 ORIG_CW = 319 * SCALE  # reference width the original layout was designed at, scaled up
 
-logo_title = Image.open("/home/claude/gif_work/logo_title_top.png").convert("RGBA")
-logo_r2 = Image.open("/home/claude/gif_work/logo_r2_center.png").convert("RGBA")
-logo_taki = Image.open("/home/claude/gif_work/logo_taki_odon_bottom.png").convert("RGBA")
+logo_title = Image.open("/home/claude/gif_work/logo_title_top_revised.png").convert("RGBA")
+logo_r2 = Image.open("/home/claude/gif_work/logo_r2_center_revised.png").convert("RGBA")
+logo_taki = Image.open("/home/claude/gif_work/logo_taki_odon_bottom_revised.png").convert("RGBA")
 
 def upscale2x(img):
     return img.resize((img.width * SCALE, img.height * SCALE), Image.LANCZOS)

@@ -8,9 +8,9 @@ import struct
 CW, CH = 319, 241
 W, H = CW, CH
 
-logo_title = Image.open("/home/claude/gif_work/logo_title_top.png").convert("RGBA")
-logo_r2 = Image.open("/home/claude/gif_work/logo_r2_center.png").convert("RGBA")
-logo_taki = Image.open("/home/claude/gif_work/logo_taki_odon_bottom.png").convert("RGBA")
+logo_title = Image.open("/home/claude/gif_work/logo_title_top_revised.png").convert("RGBA")
+logo_r2 = Image.open("/home/claude/gif_work/logo_r2_center_revised.png").convert("RGBA")
+logo_taki = Image.open("/home/claude/gif_work/logo_taki_odon_bottom_revised.png").convert("RGBA")
 src = Image.open("/home/claude/gif_work/bg_schematic_hires.png").convert("RGB")
 # NOTE: no blur applied here (previously GaussianBlur(1.6), inherited
 # from an unrelated PS1 video-encoding pipeline where it helped a lossy
