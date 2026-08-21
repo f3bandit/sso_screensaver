@@ -11,6 +11,14 @@ with a Python asset pipeline for generating the animation itself.
 
 ---
 
+## Preview
+
+| 4:3 | 16:9 |
+|---|---|
+| ![4:3 preview](images/sso_thumbnail_4x3.png) | ![16:9 preview](images/sso_thumbnail_16x9.png) |
+
+---
+
 ## Features
 
 - **Genuine idle detection**, not a naive "any input" check — real key/button presses and mouse movement
