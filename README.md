@@ -15,8 +15,9 @@ with a Python asset pipeline for generating the animation itself.
 
 | 4:3 | 16:9 |
 |---|---|
-| ![4:3 preview](images/sso_thumbnail_4x3.png) | ![16:9 preview](images/sso_thumbnail_16x9.png) |
-| ![Demo Video](./images/sso_thumbnail_4x3.gif) |
+| ![4:3 preview](images/sso_preview_4x3.gif) | ![16:9 preview](images/sso_preview_16x9.gif) |
+
+
 ---
 
 ## Features
